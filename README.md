@@ -1,6 +1,6 @@
 *Screenshoots - Task 1*
 
-1. node index.js --action list = https://ibb.co/CPcq97V
+1. _node index.js --action list_ = https://ibb.co/CPcq97V
 
 2. node index.js --action get --id 05olLMgyVQdWRwgKfg5J6 = https://ibb.co/LrpGdv0
 
