@@ -3,7 +3,6 @@ const { hideBin } = require("yargs/helpers");
 const argv = yargs(hideBin(process.argv)).argv;
 const contacts = require("./contacts");
 
-// Función para invocar la acción correspondiente
 async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
     case "list":
@@ -27,5 +26,4 @@ async function invokeAction({ action, id, name, email, phone }) {
   }
 }
 
-// Llamada a la función invokeAction con los argumentos proporcionados
 invokeAction(argv).catch(console.error);
